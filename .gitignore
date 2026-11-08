@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Icon?
+
+# Windows / Linux
+Thumbs.db
+desktop.ini
+*~
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Logisim backups / autosaves
+*.circ.bak
+*.circ~
+*.autosave
+*.circ.autosave
+
+# Old scratch files (safe to delete)
+_to_delete/
+
+# Archives built for portal upload
+*.zip
