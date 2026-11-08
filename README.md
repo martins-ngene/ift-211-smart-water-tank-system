@@ -5,8 +5,6 @@ IFT 211 (Digital Logic Design) mid-semester lab assessment at MIVA Open Universi
 | | |
 |---|---|
 | **Student** | Martins Sopuluchukwu Ngene |
-| **Matric Number** | 2025/B/CSC/0429 |
-| **Email** | [m.ngene6895@miva.edu.ng](mailto:m.ngene6895@miva.edu.ng) |
 | **Programme** | B.Sc. Computer Science |
 | **Repository** | [github.com/martins-ngene/ift-211-smart-water-tank-system](https://github.com/martins-ngene/ift-211-smart-water-tank-system) |
 
