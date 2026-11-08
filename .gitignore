@@ -26,3 +26,7 @@ _to_delete/
 
 # Archives built for portal upload
 *.zip
+
+# Submission document (submitted via the MIVA portal, not pushed)
+IFT211_Smart_Water_Tank_Lab_Report_Martins_Ngene.pdf
+*.pdf

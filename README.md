@@ -1,6 +1,14 @@
 # Smart Water Tank Monitoring & Control System
 
-IFT 211 (Digital Logic Design) mid-semester lab assessment at MIVA Open University, by Martins Ngene.
+IFT 211 (Digital Logic Design) mid-semester lab assessment at MIVA Open University.
+
+| | |
+|---|---|
+| **Student** | Martins Sopuluchukwu Ngene |
+| **Matric Number** | 2025/B/CSC/0429 |
+| **Email** | [m.ngene6895@miva.edu.ng](mailto:m.ngene6895@miva.edu.ng) |
+| **Programme** | B.Sc. Computer Science |
+| **Repository** | [github.com/martins-ngene/ift-211-smart-water-tank-system](https://github.com/martins-ngene/ift-211-smart-water-tank-system) |
 
 The project is a digital water tank controller built in **Logisim-evolution** from pure digital logic: basic gates, D flip-flops and a 7-segment display. It uses no microcontroller and none of Logisim's built-in encoder, decoder, comparator, counter or register blocks.
 
@@ -19,9 +27,10 @@ The project is a digital water tank controller built in **Logisim-evolution** fr
 
 | Path | Description |
 |---|---|
-| `SmartWaterTank.circ` | Logisim-evolution circuit file (main circuit + 8 gate-level sub-circuits) |
-| `IFT211_Smart_Water_Tank_Lab_Report_Martins_Ngene.pdf` | Submission report: system explanation, Boolean derivations, truth tables, K-maps, testing scenarios and full-size screenshots |
+| `SmartWaterTank_Martins_Ngene.circ` | Logisim-evolution circuit file (main circuit + 8 gate-level sub-circuits) |
 | `screenshots/` | Circuit and simulation screenshots, the simulator test log (`sim_log.txt`) and Logisim-generated truth tables (`tty_tables.txt`) |
+
+> The submission report (PDF with derivations, truth tables, K-maps and test results) is submitted separately through the MIVA portal and is not tracked in this repository.
 
 ## Design summary
 
@@ -39,7 +48,7 @@ The project is a digital water tank controller built in **Logisim-evolution** fr
 ## How to run
 
 1. Install [Logisim-evolution](https://github.com/logisim-evolution/logisim-evolution/releases) 3.9.0 or newer. On macOS you can also run `brew install --cask logisim-evolution`.
-2. In Logisim-evolution, use **File → Open** and choose `SmartWaterTank.circ`.
+2. Clone the repo (`git clone https://github.com/martins-ngene/ift-211-smart-water-tank-system.git`) or download `SmartWaterTank_Martins_Ngene.circ`, then open it in Logisim-evolution with **File → Open**.
 3. Select the Poke tool (hand icon). Set **RESET** to 1, then back to 0.
 4. Start the clock with **Simulate → Auto-Tick Enabled** (Ctrl/⌘+K), or step it one tick at a time with Ctrl/⌘+T.
 5. Poke S0 → S3 to fill the tank. The display counts 0 → 3, and the pump switches off at FULL. ALARM lights after 3 clock edges.
@@ -48,6 +57,6 @@ The project is a digital water tank controller built in **Logisim-evolution** fr
 ## Testing
 
 - **Combinational sub-circuits:** exhaustive truth tables were generated with Logisim's `--toplevel-circuit <name> -t table` mode. All of them match the designed tables.
-- **Full system:** a 17-step clocked scenario covered reset, filling, the 3-cycle alarm, draining, a sensor fault and async reset. Every step passed; see section 10 of the report and `screenshots/sim_log.txt`.
+- **Full system:** a 17-step clocked scenario covered reset, filling, the 3-cycle alarm, draining, a sensor fault and async reset. Every step passed; see `screenshots/sim_log.txt`.
 
 ![Overflow alarm state](screenshots/sim_full_alarm.png)

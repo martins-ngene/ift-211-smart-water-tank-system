@@ -133,6 +133,10 @@
     <comp lib="3" loc="(1395,910)" name="7-Segment Display">
       <a name="offcolor" val="#e8e8e8"/>
     </comp>
+    <comp lib="4" loc="(400,20)" name="Text">
+      <a name="font" val="SansSerif bold 20"/>
+      <a name="text" val="Martins Ngene 200 Level Computer Science - IFT 211 Lab Assessment"/>
+    </comp>
     <comp loc="(1020,190)" name="BIN_TO_BCD">
       <a name="label" val="6a. 2-bit to BCD"/>
     </comp>
