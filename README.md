@@ -7,6 +7,7 @@ IFT 211 (Digital Logic Design) mid-semester lab assessment at MIVA Open Universi
 | **Student** | Martins Ngene |
 | **Programme** | B.Sc. Computer Science |
 | **Repository** | [github.com/martins-ngene/ift-211-smart-water-tank-system](https://github.com/martins-ngene/ift-211-smart-water-tank-system) |
+| **Demo video** | [https://youtu.be/JrAtE_vORNo](https://youtu.be/JrAtE_vORNo) |
 
 The project is a digital water tank controller built in **Logisim-evolution** from pure digital logic: basic gates, D flip-flops and a 7-segment display. It uses no microcontroller and none of Logisim's built-in encoder, decoder, comparator, counter or register blocks.
 
@@ -44,6 +45,8 @@ The project is a digital water tank controller built in **Logisim-evolution** fr
 | Status | `STATUS` | `LOW = R1'`, `MEDIUM = R1·R0'`, `FULL = R1·R0` |
 
 ## How to run
+
+▶️ **Watch the 2-minute walkthrough:** [https://youtu.be/JrAtE_vORNo](https://youtu.be/JrAtE_vORNo)
 
 1. Install [Logisim-evolution](https://github.com/logisim-evolution/logisim-evolution/releases) 3.9.0 or newer. On macOS you can also run `brew install --cask logisim-evolution`.
 2. Clone the repo (`git clone https://github.com/martins-ngene/ift-211-smart-water-tank-system.git`) or download `SmartWaterTank_Martins_Ngene.circ`, then open it in Logisim-evolution with **File → Open**.
