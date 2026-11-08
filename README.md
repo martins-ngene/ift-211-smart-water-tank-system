@@ -4,7 +4,7 @@ IFT 211 (Digital Logic Design) mid-semester lab assessment at MIVA Open Universi
 
 | | |
 |---|---|
-| **Student** | Martins Sopuluchukwu Ngene |
+| **Student** | Martins Ngene |
 | **Programme** | B.Sc. Computer Science |
 | **Repository** | [github.com/martins-ngene/ift-211-smart-water-tank-system](https://github.com/martins-ngene/ift-211-smart-water-tank-system) |
 
